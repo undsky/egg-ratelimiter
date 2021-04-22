@@ -2,12 +2,13 @@
  * @Author: 姜彦汐
  * @Date: 2021-04-21 15:57:50
  * @LastEditors: 姜彦汐
- * @LastEditTime: 2021-04-21 16:05:17
+ * @LastEditTime: 2021-04-22 10:17:53
  * @Description: 
  * Contact: jiangyanxi@live.com
  * @FilePath: /egg-ratelimiter/README.md
 -->
 # egg-ratelimiter
+## 安装
 
 ```bash
 $ npm i egg-ratelimiter --save
@@ -19,36 +20,34 @@ $ yarn add egg-ratelimiter
 
 ### 依赖的 egg 版本
 
-egg-ratelimiter | egg 2.x | egg 1.x
---- | --- | ---
-1.x | 😁 | ❌
+egg 2.x | egg 1.x
+--- | ---
+😁 | ❌
 
 ### 依赖的插件
-<!--
 
-如果有依赖其它插件，请在这里特别说明。如
+[ioredis](https://github.com/luin/ioredis)
 
-- security
-- multipart
-
--->
+[rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible)
 
 ## 开启插件
 
 ```js
-// config/plugin.js
+// {app_root}/config/plugin.js
 exports.ratelimiter = {
   enable: true,
   package: 'egg-ratelimiter',
 };
 ```
 
-## 使用
-
 ## 配置
 
-## 示例
+```js
+// {app_root}/config/config.default.js
+config.ratelimiter = {
 
+};
+```
 ## License
 
 [MIT](LICENSE)
