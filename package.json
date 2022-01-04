@@ -1,5 +1,5 @@
 {
-  "name": "egg-rate-limitation",
+  "name": "egg-rate-limiter2",
   "version": "1.0.0",
   "description": "egg plugin for ratelimiter",
   "eggPlugin": {

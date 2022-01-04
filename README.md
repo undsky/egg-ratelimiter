@@ -5,9 +5,9 @@
 ## 安装
 
 ```bash
-$ npm i egg-rate-limitation --save
+$ npm i egg-rate-limiter2 --save
 # or
-$ yarn add egg-rate-limitation
+$ yarn add egg-rate-limiter2
 ```
 
 ## 依赖说明
