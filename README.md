@@ -1,19 +1,13 @@
-<!--
- * @Author: 姜彦汐
- * @Date: 2021-04-21 15:57:50
- * @LastEditors: 姜彦汐
- * @LastEditTime: 2021-04-22 10:17:53
- * @Description: 
- * Contact: jiangyanxi@live.com
- * @FilePath: /egg-ratelimiter/README.md
--->
 # egg-ratelimiter
+
+> egg plugin for ratelimiter
+
 ## 安装
 
 ```bash
-$ npm i egg-ratelimiter --save
+$ npm i egg-rate-limitation --save
 # or
-$ yarn add egg-ratelimiter
+$ yarn add egg-rate-limitation
 ```
 
 ## 依赖说明
@@ -45,9 +39,16 @@ exports.ratelimiter = {
 ```js
 // {app_root}/config/config.default.js
 config.ratelimiter = {
-
+      points: 1000,
+      duration: 1000,
+      redis: null
 };
 ```
+
+## 示例
+
+## [点击查看更多开源项目 https://undsky.com/](https://undsky.com/)
+
 ## License
 
 [MIT](LICENSE)
