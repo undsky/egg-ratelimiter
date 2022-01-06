@@ -47,7 +47,7 @@ config.ratelimiter = {
 
 ## 示例
 
-## [点击查看更多开源项目 https://undsky.com/](https://undsky.com/)
+## [查看更多项目](https://www.undsky.com)
 
 ## License
 
