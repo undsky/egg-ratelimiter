@@ -1,6 +1,7 @@
 # egg-ratelimiter
 
-> egg plugin for ratelimiter
+> Egg plugin for ratelimiter
+
 
 ## 安装
 
